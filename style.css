@@ -1,0 +1,95 @@
+/* Add modern styles to the header and navigation */
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/* Style the hero section */
+.hero {
+  background-image: url('images/cat-banner.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-color: lightpink;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+  font-family: sans-serif;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: lightpink; /* Change text color to light pink */
+}
+
+.hero h2 {
+  color: lightpink; /* Change text color to light pink */
+}
+
+/* Add styles to the cat cards */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.card {
+  flex-basis: calc(33.33% - 20px);
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  font-family: sans-serif; 
+  background-color: lightpink;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 24px;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+/* Update footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-family: sans-serif;
+}
+
+/* Update content section styles */
+.content h2, .content p {
+  font-family: sans-serif; /* Change text in the content section to sans-serif */
+}
